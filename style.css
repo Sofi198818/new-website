@@ -9,7 +9,7 @@
 /* in float case we can not define backround color, because it doesn's see element's height, in such case we 
 need to add another empty div class names clear to clean both elements,  */
 .wrapper{
-    background-color: red;
+    /* background-color: red; */
 }
 
 .clear{
@@ -19,7 +19,27 @@ need to add another empty div class names clear to clean both elements,  */
 /* in float case if we want to float text on the left or on the right,
  in css we need to use weight and add px, dispite we will not get a resault */
 
+ 
  .wrapper img{
-     float: left;
-     margin-right: 50px;
+     float: right;
+    
  }
+
+ .wrapper2 img{
+     float: left;
+ }
+ 
+ .box1{
+    
+     width: 527px;
+     float: left;
+   margin-left: 145px;
+ }
+
+ .box2{
+     width: 527px;
+     float: right;
+     margin-right: 145px;
+ }
+
+ 
