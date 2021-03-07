@@ -1,0 +1,25 @@
+.test1{
+    float: left;
+}
+
+.test2{
+    float: right;
+}
+
+/* in float case we can not define backround color, because it doesn's see element's height, in such case we 
+need to add another empty div class names clear to clean both elements,  */
+.wrapper{
+    background-color: red;
+}
+
+.clear{
+    clear: both;
+}
+
+/* in float case if we want to float text on the left or on the right,
+ in css we need to use weight and add px, dispite we will not get a resault */
+
+ .wrapper img{
+     float: left;
+     margin-right: 50px;
+ }
