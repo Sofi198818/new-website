@@ -7,10 +7,10 @@
 }
 
 /* in float case we can not define backround color, because it doesn's see element's height, in such case we 
-need to add another empty div class names clear to clean both elements,  */
-.wrapper{
-    /* background-color: red; */
-}
+need to add another empty div class names clear to clean both elements, 
+wrapper{
+ background-color: red; 
+ */
 
 .clear{
     clear: both;
